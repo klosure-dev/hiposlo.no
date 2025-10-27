@@ -1,0 +1,24 @@
+<template>
+  <AppPadding class="py-2.5 border-b border-hip-orange">
+    <nav class="flex items-center">
+      <NuxtLink to="/">
+        <div class="w-16 h-12 border-hip-orange border"/>
+      </NuxtLink>
+
+      <div class="ml-auto space-x-5">
+        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="text-hip-orange">
+          {{ link.label }}
+        </NuxtLink>
+      </div>
+    </nav>
+  </AppPadding>
+</template>
+
+<script lang="ts" setup>
+const links = [
+  { label: 'Arkiv', to: '/arkiv'},
+  { label: 'Om oss', to: '/om-oss'},
+  { label: 'Kontakt', to: '/kontakt'},
+]
+</script>
+
