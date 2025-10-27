@@ -1,5 +1,3 @@
 <template>
-  <p>
-    landing page
-  </p>
+  <PageTitle>2026</PageTitle>
 </template>

@@ -1,5 +1,3 @@
 <template>
-  <p>
-    kontakt
-  </p>
+  <PageTitle>Kontakt</PageTitle>
 </template>

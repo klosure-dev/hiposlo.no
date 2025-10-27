@@ -1,5 +1,3 @@
 <template>
-  <p>
-    arkiv
-  </p>
+  <PageTitle>2025</PageTitle>
 </template>

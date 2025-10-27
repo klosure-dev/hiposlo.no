@@ -1,5 +1,3 @@
 <template>
-  <p>
-    om oss
-  </p>
+  <PageTitle>Om oss</PageTitle>
 </template>
