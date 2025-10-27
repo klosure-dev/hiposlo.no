@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+  --color-hip-orange: #AF4A1A;
+}
