@@ -2,9 +2,7 @@
   <AppPadding class="py-2.5 border-b border-hip-orange">
     <nav class="flex items-center">
       <NuxtLink to="/">
-        <div class="w-16 h-12 ">
           <AppLogo/>
-        </div>
       </NuxtLink>
 
       <div class="ml-auto space-x-5">
