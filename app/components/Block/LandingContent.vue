@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center">
+  <AppPadding class="flex justify-center">
     <div class="max-w-2xl space-y-5 text-neutral-300">
       <p>
         Fra trange lokaler i Hausmannsgate, tar vi steget ut i friluft.
@@ -17,5 +17,5 @@
         Velkommen til en annerledes festival, med musikken i fokus!
       </p>
     </div>
-  </div>
+  </AppPadding>
 </template>
