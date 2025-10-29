@@ -1,6 +1,6 @@
 <template>
   <UApp>
-    <Body class="bg-neutral-950 text-neutral-300">
+    <Body class="text-neutral-300 bg-hip-bg">
       <AppNavbar/>
       <NuxtPage/>
       <AppFooter/>
