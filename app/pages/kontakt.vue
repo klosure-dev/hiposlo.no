@@ -2,8 +2,8 @@
   <div>
     <PageTitle>Kontakt</PageTitle>
 
-    <div class="flex flex-col items-center py-8 gap-5">
-      <div v-for="person in people" :key="person.name" class="w-lg">
+    <AppPadding class="flex flex-col items-center py-8 gap-5">
+      <div v-for="person in people" :key="person.name" class="w-lg not-last:border-b border-hip-orange not-last:pb-6">
         <p class="font-bold"> {{ person.name }}</p>
         <NuxtLink v-if="person.email" :to="`mailto:${person.email}`" class="underline">
           <p>{{ person.email }}</p>
@@ -12,7 +12,7 @@
           <p>{{ person.number }}</p>
         </NuxtLink>
       </div>
-    </div>
+    </AppPadding>
   </div>
 </template>
 
