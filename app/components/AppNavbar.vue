@@ -5,8 +5,8 @@
         <AppLogo class="w-20"/>
       </NuxtLink>
 
-      <div class="ml-auto space-x-5">
-        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="text-hip-orange">
+      <div class="ml-auto flex gap-5 items-center text-2xl">
+        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="text-hip-orange block flex-none">
           {{ link.label }}
         </NuxtLink>
       </div>
