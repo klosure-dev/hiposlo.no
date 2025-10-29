@@ -18,6 +18,11 @@ const people = [
     name: 'Vegard Heskestad',
     email: 'vegard@kafe-haerverk.com',
     number: '+47 9309 5357'
+  },
+  {
+    name: 'Ramy Ghanem',
+    email: 'ramy02ghanem@gmail.com',
+    number: '+47 9228 2756'
   }
 ]
 </script>
