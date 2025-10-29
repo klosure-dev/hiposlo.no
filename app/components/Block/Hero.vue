@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <NuxtImg src="/images/hero.jpg" width="1440px"/>
+    <NuxtPicture src="/images/hero.jpg" width="1440px"/>
     <div class="absolute bottom-10 flex justify-center w-full">
       <!-- TODO: resize logo -->
       <AppLogo/>

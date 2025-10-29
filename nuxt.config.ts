@@ -10,4 +10,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  image: {
+    format: ['avif', 'webp']
+  }
 })
