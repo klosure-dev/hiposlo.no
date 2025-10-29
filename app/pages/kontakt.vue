@@ -2,7 +2,7 @@
   <div>
     <PageTitle>Kontakt</PageTitle>
 
-    <div class="flex flex-col items-center py-8 gap-2.5">
+    <div class="flex flex-col items-center py-8 gap-5">
       <div v-for="person in people" :key="person.name" class="w-lg">
         <p class="font-bold"> {{ person.name }}</p>
         <NuxtLink v-if="person.email" :to="`mailto:${person.email}`" class="underline">
