@@ -1,5 +1,5 @@
 <template>
-  <NuxtPicture v-for="picture in pictures" :key="picture" :src="picture.src" class="max-w-[970px]" width="970px" />
+  <NuxtPicture v-for="picture in pictures" :key="picture" :src="picture.src" class="max-w-[970px]" width="970px" sizes="970px" />
 </template>
 
 <script lang="ts" setup>
