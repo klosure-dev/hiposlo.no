@@ -1,7 +1,5 @@
 <template>
-  <AppPadding class="flex flex-col items-center gap-2.5 w-full border-b border-hip-orange py-8">
-    <NuxtPicture v-for="picture in pictures" :key="picture" :src="picture.src" class="max-w-[970px]" width="970px" />
-  </AppPadding>
+  <NuxtPicture v-for="picture in pictures" :key="picture" :src="picture.src" class="max-w-[970px]" width="970px" />
 </template>
 
 <script lang="ts" setup>
