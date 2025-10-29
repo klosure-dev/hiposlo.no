@@ -5,8 +5,12 @@
     <div class="flex flex-col items-center py-8 gap-2.5">
       <div v-for="person in people" :key="person.name" class="w-lg">
         <p class="font-bold"> {{ person.name }}</p>
-        <p v-if="person.email">{{ person.email }}</p>
-        <p v-if="person.number">{{ person.number }}</p>
+        <NuxtLink v-if="person.email" :to="`mailto:${person.email}`" class="underline">
+          <p>{{ person.email }}</p>
+        </NuxtLink>
+        <NuxtLink v-if="person.number" :to="`tel:${person.number}`" class="underline">
+          <p>{{ person.number }}</p>
+        </NuxtLink>
       </div>
     </div>
   </div>
