@@ -2,7 +2,7 @@
   <div>
     <PageTitle>Om oss</PageTitle>
     <AppPadding class="flex justify-center py-8">
-      <div class="max-w-2xl space-y-5 text-neutral-300">
+      <div class="max-w-2xl space-y-5 ">
         <p>
           Fra trange lokaler i Hausmannsgate, tar vi steget ut i friluft.
           GSF i Gamlebyen legger den perfekte rammen for en inkluderende, ny og fremtidstrettet festival med fokus på ung norsk musikk.
