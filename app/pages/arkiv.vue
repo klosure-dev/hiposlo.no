@@ -12,7 +12,7 @@
         <BlockImageCarousel/>
       </AppPadding>
 
-      <AppPadding class="border-b py-8 border-hip-orange w-full flex flex-col gap-2.5 items-center">
+      <AppPadding class="py-8 w-full flex flex-col gap-2.5 items-center">
         <NuxtPicture src="/images/poster.jpg" class="max-w-[500px]" width="500px" sizes="500px" />
         <p>
           Credit <NuxtLink class="underline" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>, 2024
