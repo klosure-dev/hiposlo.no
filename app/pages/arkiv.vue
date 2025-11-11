@@ -22,4 +22,10 @@
   </main>
 </template>
 
+<script lang="ts" setup>
+useSeoMeta({
+  title: "Hærverk i Parken: 2025",
+})
+</script>
+
 

@@ -14,4 +14,9 @@ useHead({
     { 'defer': true, 'data-domain': "hiposlo.no", 'src': "https://plausible.kakk.dev/js/script.js", },
   ]
 })
+
+useSeoMeta({
+  title: "Hærverk i Parken",
+  description: 'En ny og fremtidstrettet festival med fokus på ung norsk musikk.'
+})
 </script>

@@ -29,4 +29,8 @@ const people = [
     number: '+47 9228 2756'
   }
 ]
+
+useSeoMeta({
+  title: "Hærverk i Parken: Kontakt",
+})
 </script>

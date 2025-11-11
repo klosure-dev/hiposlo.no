@@ -32,3 +32,9 @@
     </AppPadding>
   </div>
 </template>
+
+<script lang="ts" setup>
+useSeoMeta({
+  title: "Hærverk i Parken: Om Oss",
+})
+</script>
