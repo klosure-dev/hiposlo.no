@@ -11,18 +11,17 @@
         </NuxtLink>
 
         <div class="space-x-2.5">
-          <NuxtLink :to="appConfig.socials.facebook">
-            <UIcon name="cib:facebook" class="text-hip-orange size-8" />
+          <NuxtLink :to="appConfig.socials.facebook" class="group">
+            <UIcon name="cib:facebook" class="text-hip-orange size-8 group-hover:text-hip-blue transition lg:size-10" />
           </NuxtLink>
-          <NuxtLink :to="appConfig.socials.instagram">
-            <UIcon name="cib:instagram" class="text-hip-orange size-8"/>
+          <NuxtLink :to="appConfig.socials.instagram" class="group">
+            <UIcon name="cib:instagram" class="text-hip-orange size-8 group-hover:text-hip-blue transition lg:size-10"/>
           </NuxtLink>
         </div>
 
         <p class="leading-0">
           Copyright @ Hærverk i Parken {{ new Date().getFullYear() }}
         </p>
-
 
         <div class="flex gap-1">
           <p>Av </p>
