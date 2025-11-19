@@ -28,7 +28,7 @@
         </div>
       </AppPadding>
 
-      <AppPadding class="border-b py-8 border-hip-orange w-full flex flex-col gap-2.5 items-center">
+      <AppPadding class="w-full">
         <BlockImageCarousel/>
       </AppPadding>
 

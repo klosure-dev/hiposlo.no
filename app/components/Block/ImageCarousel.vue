@@ -1,5 +1,11 @@
 <template>
-  <NuxtPicture v-for="picture in pictures" :key="picture" :src="picture.src" class="max-w-[970px]" width="970px" sizes="970px" />
+  <div class="overflow-hidden w-full px-12">
+    <UCarousel v-slot="{ item }" :items="pictures" :ui="{ item: 'lg:basis-2/3' }" arrows>
+      <div class="w-full mx-auto">
+        <NuxtPicture  :src="item.src" class="max-w-[970px] w-full" width="970px" sizes="970px" />
+      </div>
+    </UCarousel>
+  </div>
 </template>
 
 <script lang="ts" setup>
