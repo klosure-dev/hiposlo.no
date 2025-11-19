@@ -24,10 +24,15 @@
         </p>
 
         <div class="flex gap-1">
-          <p>Av </p>
+          <p>Nettside av </p>
           <NuxtLink to="https://alfarnes.dev" class="underline hover:text-hip-blue transition">Kasper Alfarnes</NuxtLink>
           <p>og</p>
           <NuxtLink to="https://stener-vaagland.com" class="underline hover:text-hip-blue transition">Stener Vaagland </NuxtLink>
+        </div>
+
+        <div class="flex gap-1">
+          <p>Grafikk av </p>
+          <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>
         </div>
       </div>
     </AppPadding>
