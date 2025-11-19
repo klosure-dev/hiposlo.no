@@ -12,6 +12,11 @@
         <NuxtLink to="https://stener-vaagland.com">
           <p>Stener Vaagland</p>
         </NuxtLink>
+
+        <p>
+          Copyright @ Hærverk i Parken {{ new Date().getFullYear() }}
+        </p>
+
       </div>
     </AppPadding>
   </footer>
