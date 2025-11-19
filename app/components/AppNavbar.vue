@@ -6,7 +6,7 @@
       </NuxtLink>
 
       <div class="ml-auto flex gap-2 lg:gap-5 items-center text-sm lg:text-2xl">
-        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" class="text-hip-orange block flex-none last:bg-hip-orange last:text-hip-bg last:px-1.5 last:py-px">
+        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" :class="link.class" class="text-hip-orange block flex-none last:bg-hip-orange last:text-hip-bg last:px-1.5 last:py-px">
           {{ link.label }}
         </NuxtLink>
       </div>
@@ -16,10 +16,10 @@
 
 <script lang="ts" setup>
 const links = [
-  { label: 'Arkiv', to: '/arkiv'},
-  { label: 'Om oss', to: '/om-oss'},
-  { label: 'Kontakt', to: '/kontakt'},
-  { label: 'Billetter', to: 'https://tikkio.com/events/60343'},
+  { label: 'Arkiv', to: '/arkiv', class: '' },
+  { label: 'Om oss', to: '/om-oss', class: '' },
+  { label: 'Kontakt', to: '/kontakt', class: '' },
+  { label: 'Billetter', to: 'https://tikkio.com/events/60343', class: 'plausible-event-name=kjøp-billetter' },
 ]
 </script>
 
