@@ -19,7 +19,7 @@ const links = [
   { label: 'Arkiv', to: '/arkiv'},
   { label: 'Om oss', to: '/om-oss'},
   { label: 'Kontakt', to: '/kontakt'},
-  // { label: 'Billetter', to: '/kontakt'},
+  { label: 'Billetter', to: 'https://tikkio.com/events/60343'},
 ]
 </script>
 
