@@ -8,7 +8,7 @@
         <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/ij2EN4NgYEo?si=gwIeX2L-pIIEl8ro"/>
       </AppPadding>
 
-      <AppPadding class="py-8 w-full gap-5 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start">
+      <AppPadding class="py-8 w-full flex flex-col gap-5 lg:flex-row lg:justify-center items-center lg:items-start">
         <div>
           <NuxtPicture src="/images/poster.jpg" class="max-w-[500px]" width="500px" sizes="500px" />
           <p class="text-center mt-2.5">
@@ -16,7 +16,7 @@
           </p>
         </div>
 
-        <div class="max-w-[500px] w-full lg:max-w-[450px]">
+        <div class="max-w-[500px] w-full lg:max-w-min flex flex-col">
           <p>Artister 2025</p>
           <ul>
             <li v-for=" artist in artister" :key="artist.label"  class="list-disc list-inside">
