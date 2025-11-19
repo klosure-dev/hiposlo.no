@@ -8,27 +8,31 @@
         <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/ij2EN4NgYEo?si=gwIeX2L-pIIEl8ro"/>
       </AppPadding>
 
-      <AppPadding class="border-b py-8 border-hip-orange w-full">
-        <p>Artister 2025</p>
-        <ul>
-          <li v-for=" artist in artister" :key="artist.label"  class="list-disc list-inside">
-            <NuxtLink :to="artist.link" class="underline hover:text-hip-blue transition plausible-event-name=utforsk-artist">
-              {{ artist.label }}
-            </NuxtLink>
-          </li>
-        </ul>
+      <AppPadding class="py-8 w-full gap-5 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start">
+        <div>
+          <NuxtPicture src="/images/poster.jpg" class="max-w-[500px]" width="500px" sizes="500px" />
+          <p class="text-center mt-2.5">
+            Credit <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>, 2024
+          </p>
+        </div>
+
+        <div class="max-w-[500px] w-full lg:max-w-[450px]">
+          <p>Artister 2025</p>
+          <ul>
+            <li v-for=" artist in artister" :key="artist.label"  class="list-disc list-inside">
+              <NuxtLink :to="artist.link" class="underline hover:text-hip-blue transition plausible-event-name=utforsk-artist">
+                {{ artist.label }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
       </AppPadding>
 
       <AppPadding class="border-b py-8 border-hip-orange w-full flex flex-col gap-2.5 items-center">
         <BlockImageCarousel/>
       </AppPadding>
 
-      <AppPadding class="py-8 w-full flex flex-col gap-2.5 items-center">
-        <NuxtPicture src="/images/poster.jpg" class="max-w-[500px]" width="500px" sizes="500px" />
-        <p>
-          Credit <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>, 2024
-        </p>
-      </AppPadding>
+
     </div>
   </main>
 </template>
