@@ -12,7 +12,9 @@
         <p>Artister 2025</p>
         <ul>
           <li v-for=" artist in artister" :key="artist.label"  class="list-disc list-inside">
-            <NuxtLink :to="artist.link" class="underline">{{ artist.label }}</NuxtLink>
+            <NuxtLink :to="artist.link" class="underline plausible-event-name=utforsk-artist">
+              {{ artist.label }}
+            </NuxtLink>
           </li>
         </ul>
       </AppPadding>
