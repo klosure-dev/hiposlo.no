@@ -15,11 +15,13 @@
 </template>
 
 <script lang="ts" setup>
+const appConfig = useAppConfig();
+
 const links = [
   { label: 'Arkiv', to: '/arkiv', class: '' },
   { label: 'Om oss', to: '/om-oss', class: '' },
   { label: 'Kontakt', to: '/kontakt', class: '' },
-  { label: 'Billetter', to: 'https://tikkio.com/events/60343', class: 'plausible-event-name=kjøp-billetter' },
+  { label: 'Billetter', to: appConfig.ticketLink, class: 'plausible-event-name=kjøp-billetter' },
 ]
 </script>
 
