@@ -6,7 +6,7 @@
       </NuxtLink>
 
       <div class="ml-auto flex gap-2 lg:gap-5 items-center text-sm lg:text-2xl">
-        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" :class="link.class" class="text-hip-orange block flex-none last:bg-hip-orange last:text-hip-bg last:px-1.5 last:py-px">
+        <NuxtLink v-for="link in links" :key="link.to" :to="link.to" :class="link.class" class="text-hip-orange block flex-none last:bg-hip-orange hover:text-hip-blue last:hover:text-hip-bg last:text-hip-bg last:hover:bg-hip-blue transition last:px-1.5 last:py-px">
           {{ link.label }}
         </NuxtLink>
       </div>
