@@ -4,15 +4,25 @@
       <NuxtLink to="/">
         <AppLogo/>
       </NuxtLink>
-      <div class="text-neutral-600 flex flex-col items-center space-y-3">
+      <div class="text-neutral-600 flex flex-col items-center space-y-5">
 
         <NuxtLink class="block flex-none bg-hip-orange hover:bg-hip-blue transition text-hip-bg px-1.5 py-px text-sm lg:text-2xl plausible-event-name=kjøp-billetter plausible-event-position=footer" :to="appConfig.ticketLink">
           Billetter
         </NuxtLink>
 
-        <p>
+        <div class="space-x-2.5">
+          <NuxtLink :to="appConfig.socials.facebook">
+            <UIcon name="cib:facebook" class="text-hip-orange size-8" />
+          </NuxtLink>
+          <NuxtLink :to="appConfig.socials.instagram">
+            <UIcon name="cib:instagram" class="text-hip-orange size-8"/>
+          </NuxtLink>
+        </div>
+
+        <p class="leading-0">
           Copyright @ Hærverk i Parken {{ new Date().getFullYear() }}
         </p>
+
 
         <div class="flex gap-1">
           <p>Av </p>
