@@ -16,9 +16,9 @@
 
         <div class="flex gap-1">
           <p>Av </p>
-          <NuxtLink to="https://alfarnes.dev" class="underline hover:text-neutral-500 transition">Kasper Alfarnes</NuxtLink>
+          <NuxtLink to="https://alfarnes.dev" class="underline hover:text-hip-blue transition">Kasper Alfarnes</NuxtLink>
           <p>og</p>
-          <NuxtLink to="https://stener-vaagland.com" class="underline hover:text-neutral-500 transition">Stener Vaagland </NuxtLink>
+          <NuxtLink to="https://stener-vaagland.com" class="underline hover:text-hip-blue transition">Stener Vaagland </NuxtLink>
         </div>
       </div>
     </AppPadding>

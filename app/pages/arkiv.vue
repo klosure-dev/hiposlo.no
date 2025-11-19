@@ -12,7 +12,7 @@
         <p>Artister 2025</p>
         <ul>
           <li v-for=" artist in artister" :key="artist.label"  class="list-disc list-inside">
-            <NuxtLink :to="artist.link" class="underline plausible-event-name=utforsk-artist">
+            <NuxtLink :to="artist.link" class="underline hover:text-hip-blue plausible-event-name=utforsk-artist">
               {{ artist.label }}
             </NuxtLink>
           </li>
@@ -26,7 +26,7 @@
       <AppPadding class="py-8 w-full flex flex-col gap-2.5 items-center">
         <NuxtPicture src="/images/poster.jpg" class="max-w-[500px]" width="500px" sizes="500px" />
         <p>
-          Credit <NuxtLink class="underline" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>, 2024
+          Credit <NuxtLink class="underline hover:text-hip-blue" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>, 2024
         </p>
       </AppPadding>
     </div>
