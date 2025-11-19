@@ -4,20 +4,27 @@
       <NuxtLink to="/">
         <AppLogo/>
       </NuxtLink>
-      <div class="text-neutral-600 text-center">
-        <p>Nettside av:</p>
-        <NuxtLink to="https://alfarnes.dev">
-          <p>Kasper Alfarnes</p>
-        </NuxtLink>
-        <NuxtLink to="https://stener-vaagland.com">
-          <p>Stener Vaagland</p>
+      <div class="text-neutral-600 flex flex-col items-center space-y-3">
+
+        <NuxtLink class="block flex-none bg-hip-orange text-hip-bg px-1.5 py-px text-sm lg:text-2xl" :to="appConfig.ticketLink">
+          Billetter
         </NuxtLink>
 
         <p>
           Copyright @ Hærverk i Parken {{ new Date().getFullYear() }}
         </p>
 
+        <div class="flex gap-1">
+          <p>Av </p>
+          <NuxtLink to="https://alfarnes.dev" class="underline hover:text-neutral-500 transition">Kasper Alfarnes</NuxtLink>
+          <p>og</p>
+          <NuxtLink to="https://stener-vaagland.com" class="underline hover:text-neutral-500 transition">Stener Vaagland </NuxtLink>
+        </div>
       </div>
     </AppPadding>
   </footer>
 </template>
+
+<script lang="ts" setup>
+const appConfig = useAppConfig()
+</script>
