@@ -28,10 +28,6 @@ const pictures = [
     credit: 'Morten Andersen'
   },
   {
-    src: '/images/carousel/HIP073.jpg',
-    credit: '???'
-  },
-  {
     src: '/images/carousel/HIP082.jpg',
     credit: 'Morten Andersen'
   },
