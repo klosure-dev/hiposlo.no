@@ -1,8 +1,8 @@
 <template>
   <footer class="border-t border-hip-orange">
     <AppPadding  class="flex flex-col items-center gap-3.5 py-10">
-      <NuxtLink to="/">
-        <AppLogo/>
+      <NuxtLink to="/" class="group">
+        <AppLogo class="text-hip-orange group-hover:text-hip-blue"/>
       </NuxtLink>
       <div class="text-neutral-600 flex flex-col items-center space-y-5">
 
