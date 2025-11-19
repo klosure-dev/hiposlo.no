@@ -43,6 +43,26 @@ const pictures = [
     src: '/images/carousel/R1-07855-0018.jpg',
     credit: 'Lea Fagernes'
   },
+  {
+    src: '/images/carousel/morten-andersen-1.jpg',
+    credit: 'Morten Andersen'
+  },
+  {
+    src: '/images/carousel/morten-andersen-2.jpg',
+    credit: 'Morten Andersen'
+  },
+  {
+    src: '/images/carousel/morten-andersen-3.jpg',
+    credit: 'Morten Andersen'
+  },
+  {
+    src: '/images/carousel/morten-andersen-4.jpg',
+    credit: 'Morten Andersen'
+  },
+  {
+    src: '/images/carousel/R1-07855-0021.jpg',
+    credit: 'Lea Fagernes '
+  },
 ]
 </script>
 
