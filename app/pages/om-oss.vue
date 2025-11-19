@@ -3,10 +3,10 @@
     <PageTitle>Om oss</PageTitle>
     <AppPadding class="flex justify-center py-8">
       <div class="max-w-2xl space-y-5 ">
+
         <p>
-          Fra trange lokaler i Hausmannsgate, tar vi steget ut i friluft.
-          GSF i Gamlebyen legger den perfekte rammen for en inkluderende, ny og fremtidstrettet festival med fokus på ung norsk musikk.
-          Vi er glade for å kunne presentere 11 unike vidt forskjellige band, hvorav 7 har medlemmer fra 15-25 år, og de siste 4 er så fantastisk bra at vi bare måtte booke dem.
+          Hærverk i Parken er en årlig musikkfest som finner sted på området til Gamlebyen Sport og Fritid under Dyvekes Bro i Gamlebyen Oslo.
+          Hærverk i Parken viderefører den grenseløse og sjangerfrie bookingen til Kafé Hærverk, bringer den ut i friluft og til en større scene.
         </p>
 
         <div>
@@ -14,20 +14,19 @@
         </div>
 
         <p>
-          Vi er stolte over å presentere denne nye festivalen, som vi håper vil bli et friskt pust for musikkscena i Oslo.
-          En festival hvor musikken står i sentrum, og hvor alle er velkomne til å oppleve den unge og mangfoldige musikken som vokser frem i Norge i dag.
-        </p>
-
-        <p>
-          Vi gleder oss til å se dere og håper at denne festivalen vil bli starten på noe helt nytt og spennende.
-        </p>
-        <p>
-          Velkommen til en annerledes festival, med musikken i fokus!
+          Hærverk i Parken vektlegger mangfold og inkludering, ikke fordi Kulturdirektoratet legger rammer for det, men fordi det er viktig.
+          Vi har unge mennesker med i alle ledd av produksjon og ønsker å gi en scene til unge talenter.
+          Samtidig ønsker vi å lage en musikkfest for musikkelskere i alle aldre. Hærverk i Parken skal ha overkommelige billettpriser og god mat og drikke alle har råd til.
         </p>
 
         <div>
           <NuxtPicture src="/images/carousel/R1-07855-0018.jpg" width="672px" height="450px" sizes="672px"/>
         </div>
+
+        <p>
+          Velkommen til festival!
+        </p>
+
       </div>
     </AppPadding>
   </div>
