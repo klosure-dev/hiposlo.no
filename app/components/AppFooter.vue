@@ -4,7 +4,7 @@
       <NuxtLink to="/" class="group">
         <AppLogo class="text-hip-orange group-hover:text-hip-blue"/>
       </NuxtLink>
-      <div class="text-neutral-600 flex flex-col items-center space-y-5">
+      <div class="text-neutral-600 flex flex-col items-center gap-y-5">
 
         <NuxtLink class="block flex-none bg-hip-orange hover:bg-hip-blue transition text-hip-bg px-1.5 py-px text-sm lg:text-2xl plausible-event-name=kjøp-billetter plausible-event-position=footer" :to="appConfig.ticketLink">
           Billetter
@@ -19,21 +19,21 @@
           </NuxtLink>
         </div>
 
-        <p class="leading-0">
+        <p class="leading-none">
           Copyright @ Hærverk i Parken {{ new Date().getFullYear() }}
         </p>
 
-        <div class="flex gap-1">
-          <p>Nettside av </p>
+        <p class="flex gap-1 leading-none">
+          <span>Nettside av </span>
           <NuxtLink to="https://alfarnes.dev" class="underline hover:text-hip-blue transition">Kasper Alfarnes</NuxtLink>
-          <p>og</p>
+          <span>og</span>
           <NuxtLink to="https://stener-vaagland.com" class="underline hover:text-hip-blue transition">Stener Vaagland </NuxtLink>
-        </div>
+        </p>
 
-        <div class="flex gap-1">
-          <p>Grafikk av </p>
+        <p class="flex gap-1 leading-none">
+          <span>Grafikk av </span>
           <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>
-        </div>
+        </p>
       </div>
     </AppPadding>
   </footer>
