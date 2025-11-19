@@ -6,7 +6,7 @@
       </NuxtLink>
       <div class="text-neutral-600 flex flex-col items-center space-y-3">
 
-        <NuxtLink class="block flex-none bg-hip-orange text-hip-bg px-1.5 py-px text-sm lg:text-2xl" :to="appConfig.ticketLink">
+        <NuxtLink class="block flex-none bg-hip-orange text-hip-bg px-1.5 py-px text-sm lg:text-2xl plausible-event-name=kjøp-billetter plausible-event-position=footer" :to="appConfig.ticketLink">
           Billetter
         </NuxtLink>
 
