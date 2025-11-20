@@ -12,7 +12,7 @@
         <div>
           <NuxtPicture src="/images/poster.jpg" class="max-w-[500px]" width="500px" sizes="500px" />
           <p class="text-center mt-2.5">
-            Credit <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>, 2024
+            <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>
           </p>
         </div>
 
