@@ -19,14 +19,14 @@
           </NuxtLink>
         </div>
 
-        <p class="leading-none">
+        <p class="leading-none text-center">
           Copyright @ Hærverk i Parken {{ new Date().getFullYear() }}
         </p>
 
-        <p class="flex gap-1 leading-none">
+        <p class="leading-none text-center">
           <span>Nettside av </span>
-          <NuxtLink to="https://alfarnes.dev" class="underline hover:text-hip-blue transition">Kasper Alfarnes</NuxtLink>
-          <span>og</span>
+          <NuxtLink to="https://alfarnes.dev" class="underline hover:text-hip-blue transition">Kasper Alfarnes </NuxtLink>
+          <span>og </span>
           <NuxtLink to="https://stener-vaagland.com" class="underline hover:text-hip-blue transition">Stener Vaagland </NuxtLink>
         </p>
 
