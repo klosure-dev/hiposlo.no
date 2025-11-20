@@ -12,15 +12,27 @@
 <script lang="ts" setup>
 const pictures = [
   {
-    src: '/images/carousel/4V7A4720.jpg',
-    credit: 'Nabeeh Samaan'
-  },
-  {
     src: '/images/carousel/4V7A4790.jpg',
     credit: 'Nabeeh Samaan'
   },
   {
-    src: '/images/carousel/4V7A4813.jpg',
+    src: '/images/carousel/nabeeh-samaan-1.JPG',
+    credit: 'Nabeeh Samaan'
+  },
+  {
+    src: '/images/carousel/nabeeh-samaan-2.JPG',
+    credit: 'Nabeeh Samaan'
+  },
+  {
+    src: '/images/carousel/nabeeh-samaan-3.JPG',
+    credit: 'Nabeeh Samaan'
+  },
+  {
+    src: '/images/carousel/nabeeh-samaan-4.JPG',
+    credit: 'Nabeeh Samaan'
+  },
+  {
+    src: '/images/carousel/nabeeh-samaan-5.JPG',
     credit: 'Nabeeh Samaan'
   },
   {
