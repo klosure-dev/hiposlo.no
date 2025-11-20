@@ -12,11 +12,11 @@
 <script lang="ts" setup>
 const pictures = [
   {
-    src: '/images/carousel/4V7A4790.jpg',
+    src: '/images/carousel/nabeeh-samaan-1.JPG',
     credit: 'Nabeeh Samaan'
   },
   {
-    src: '/images/carousel/nabeeh-samaan-1.JPG',
+    src: '/images/carousel/4V7A4790.jpg',
     credit: 'Nabeeh Samaan'
   },
   {
@@ -73,7 +73,7 @@ const pictures = [
   },
   {
     src: '/images/carousel/R1-07855-0021.jpg',
-    credit: 'Lea Fagernes '
+    credit: 'Lea Fagernes'
   },
 ]
 </script>
