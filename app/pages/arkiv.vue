@@ -5,6 +5,13 @@
 
       <AppPadding class="border-b py-8 border-hip-orange w-full flex flex-col gap-2.5 items-center">
         <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/VlhfJJ1ibVw?si=aLhsFcXc3gUVtkSf"/>
+
+        <div class="max-w-[970px] space-y-4 py-8">
+          <p>Velkommen til Hærverk I Parken, en musikkfestival for alle. Velkommen til Skateparken i Gamlebyen lørdag 14. juni 2025.</p>
+          <p>Du får 11 unike band som spriker i alle sjangerretninger, hvorav 7 har medlemmer fra 15-25 år, til en pris du faktisk har råd til. Velkommen til en festival der unge folk er med i alle ledd av produksjonen. Velkommen til en festival uten dyre headlinere som avlyser i siste minutt. Velkommen til en festival fri for spradebasser og influencere som ikke er interessert i musikk.</p>
+          <p> Velkommen til en festival med god mat og drikke du har råd til. Velkommen til folkefest i Gamlebyen. Velkommen til en festival for fremtiden.</p>
+        </div>
+
         <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/ij2EN4NgYEo?si=gwIeX2L-pIIEl8ro"/>
       </AppPadding>
 
