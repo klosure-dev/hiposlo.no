@@ -10,7 +10,7 @@
         </p>
 
         <div>
-          <NuxtPicture src="/images/carousel/R1-07855-0012.jpg" width="672px" height="450px" sizes="672px"/>
+          <NuxtPicture src="/images/carousel/lea-fagernes-1.jpg" width="672px" height="450px" sizes="672px"/>
         </div>
 
         <p>
@@ -20,7 +20,7 @@
         </p>
 
         <div>
-          <NuxtPicture src="/images/carousel/R1-07855-0018.jpg" width="672px" height="450px" sizes="672px"/>
+          <NuxtPicture src="/images/carousel/lea-fagernes-2.jpg" width="672px" height="450px" sizes="672px"/>
         </div>
 
         <p>
