@@ -19,13 +19,11 @@
 <script lang="ts" setup>
 const people = [
   {
-    name: 'Vegard Heskestad',
-    email: 'vegard@hiposlo.no',
-    number: '+47 9309 5357'
+    email: 'mail@hiposlo.no',
   },
   {
     email: 'faktura@hiposlo.no',
-  }
+  },
 ]
 
 useSeoMeta({
