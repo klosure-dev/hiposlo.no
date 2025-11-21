@@ -16,14 +16,6 @@ const pictures = [
     credit: 'Nabeeh Samaan'
   },
   {
-    src: '/images/carousel/4V7A4790.jpg',
-    credit: 'Nabeeh Samaan'
-  },
-  {
-    src: '/images/carousel/nabeeh-samaan-2.JPG',
-    credit: 'Nabeeh Samaan'
-  },
-  {
     src: '/images/carousel/nabeeh-samaan-3.JPG',
     credit: 'Nabeeh Samaan'
   },
@@ -36,24 +28,12 @@ const pictures = [
     credit: 'Nabeeh Samaan'
   },
   {
-    src: '/images/carousel/HIP061c.jpg',
-    credit: 'Morten Andersen'
-  },
-  {
     src: '/images/carousel/HIP082.jpg',
     credit: 'Morten Andersen'
   },
   {
     src: '/images/carousel/HIP104a.jpg',
     credit: 'Morten Andersen'
-  },
-  {
-    src: '/images/carousel/R1-07855-0012.jpg',
-    credit: 'Lea Fagernes'
-  },
-  {
-    src: '/images/carousel/R1-07855-0018.jpg',
-    credit: 'Lea Fagernes'
   },
   {
     src: '/images/carousel/morten-andersen-1.jpg',
@@ -70,6 +50,14 @@ const pictures = [
   {
     src: '/images/carousel/morten-andersen-4.jpg',
     credit: 'Morten Andersen'
+  },
+  {
+    src: '/images/carousel/R1-07855-0012.jpg',
+    credit: 'Lea Fagernes'
+  },
+  {
+    src: '/images/carousel/R1-07855-0018.jpg',
+    credit: 'Lea Fagernes'
   },
   {
     src: '/images/carousel/R1-07855-0021.jpg',
