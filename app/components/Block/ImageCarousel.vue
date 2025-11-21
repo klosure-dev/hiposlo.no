@@ -10,59 +10,91 @@
 </template>
 
 <script lang="ts" setup>
+
 const pictures = [
-  {
-    src: '/images/carousel/nabeeh-samaan-1.JPG',
-    credit: 'Nabeeh Samaan'
-  },
-  {
-    src: '/images/carousel/nabeeh-samaan-3.JPG',
-    credit: 'Nabeeh Samaan'
-  },
-  {
-    src: '/images/carousel/nabeeh-samaan-4.JPG',
-    credit: 'Nabeeh Samaan'
-  },
-  {
-    src: '/images/carousel/nabeeh-samaan-5.JPG',
-    credit: 'Nabeeh Samaan'
-  },
-  {
-    src: '/images/carousel/HIP082.jpg',
-    credit: 'Morten Andersen'
-  },
-  {
-    src: '/images/carousel/HIP104a.jpg',
-    credit: 'Morten Andersen'
-  },
-  {
-    src: '/images/carousel/morten-andersen-1.jpg',
-    credit: 'Morten Andersen'
-  },
-  {
-    src: '/images/carousel/morten-andersen-2.jpg',
-    credit: 'Morten Andersen'
-  },
-  {
-    src: '/images/carousel/morten-andersen-3.jpg',
-    credit: 'Morten Andersen'
-  },
-  {
-    src: '/images/carousel/morten-andersen-4.jpg',
-    credit: 'Morten Andersen'
-  },
-  {
-    src: '/images/carousel/R1-07855-0012.jpg',
-    credit: 'Lea Fagernes'
-  },
-  {
-    src: '/images/carousel/R1-07855-0018.jpg',
-    credit: 'Lea Fagernes'
-  },
-  {
-    src: '/images/carousel/R1-07855-0021.jpg',
-    credit: 'Lea Fagernes'
-  },
+  { src: '/images/carousel/nabeeh-samaan-1.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-2.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-3.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-4.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-5.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-6.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-7.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-8.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-9.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-10.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-11.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-12.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-13.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-14.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-15.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-16.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-17.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-18.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-19.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-20.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-21.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-22.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-23.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-24.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-25.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-26.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-27.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-28.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-29.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-30.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-31.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-32.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-33.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-34.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-35.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-36.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-37.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-38.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-39.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-40.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-41.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-42.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-43.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-44.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-45.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-46.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-47.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-48.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-49.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-50.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-51.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-52.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-53.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-54.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-55.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-56.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-57.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-58.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-59.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-60.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-61.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-62.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-63.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-64.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-65.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-66.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-67.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-68.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-69.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-70.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-71.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-72.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-73.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-74.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-75.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-76.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-77.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-78.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-79.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-80.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-81.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-82.JPG', credit: 'Nabeeh Samaan' },
+  { src: '/images/carousel/nabeeh-samaan-83.JPG', credit: 'Nabeeh Samaan' },
 ]
 </script>
 
