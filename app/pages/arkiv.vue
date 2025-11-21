@@ -15,23 +15,25 @@
         <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/ij2EN4NgYEo?si=gwIeX2L-pIIEl8ro"/>
       </AppPadding>
 
-      <AppPadding class="py-8 w-full flex flex-col gap-5 lg:flex-row lg:justify-center items-center lg:items-start">
-        <div>
-          <NuxtPicture src="/images/poster.jpg" class="max-w-[500px]" width="500px" sizes="500px" />
-          <p class="text-center mt-2.5">
-            <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>
-          </p>
+      <AppPadding class="py-8 w-full flex flex-col items-center">
+        <div class="sm:px-12">
+          <UCarousel v-slot="{ item }" :items="posters" :ui="{ item: 'xl:basis-1/2' }" arrows >
+            <div class="w-full mx-auto flex flex-col items-center">
+              <NuxtPicture  :src="item" class="max-w-[500px] w-full" width="500px" sizes="500px" />
+              <p class="text-center mt-2.5">
+                <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">Flu Hartberg</NuxtLink>
+              </p>
+            </div>
+          </UCarousel>
         </div>
 
-        <div class="max-w-[500px] w-full lg:max-w-min flex flex-col">
-          <p>Artister 2025</p>
-          <ul>
-            <li v-for=" artist in artister" :key="artist.label"  class="list-disc list-inside">
-              <NuxtLink :to="artist.link" class="underline hover:text-hip-blue transition plausible-event-name=utforsk-artist">
-                {{ artist.label }}
-              </NuxtLink>
-            </li>
-          </ul>
+        <div class="max-w-[500px] xl:max-w-[1000px] w-full flex flex-col py-12">
+          <p class="mb-4 text-center text-hip-orange text-lg">ARTISTER 2025</p>
+          <div class="grid grid-cols-3 gap-1">
+            <NuxtLink v-for=" artist in artister" :key="artist.label" :to="artist.link" class="underline hover:text-hip-blue text-center transition plausible-event-name=utforsk-artist font-bold">
+              {{ artist.label }}
+            </NuxtLink>
+          </div>
         </div>
       </AppPadding>
 
@@ -45,6 +47,11 @@
 </template>
 
 <script lang="ts" setup>
+
+const posters = [
+  '/images/poster-color.jpg',
+  '/images/poster-bw.jpg',
+]
 
 const artister = [
   { label: 'Ronny Ver', link: 'https://open.spotify.com/artist/6fxH2Rxcx7QSv3YzCqxW1h?si=Ff5pCRe4RH27GK3kI3qUgg' },
