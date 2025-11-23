@@ -4,7 +4,7 @@
     <div class="flex flex-col items-center">
 
       <AppPadding class="border-b py-8 border-hip-orange w-full flex flex-col gap-2.5 items-center">
-        <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/VlhfJJ1ibVw?si=aLhsFcXc3gUVtkSf"/>
+        <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/3TTXTQk6N5U?si=JLuWLR_7MGHFNkhL"/>
 
         <div class="max-w-[970px] space-y-4 py-8">
           <p>Velkommen til Hærverk I Parken, en musikkfestival for alle. Velkommen til Skateparken i Gamlebyen lørdag 14. juni 2025.</p>
@@ -12,7 +12,7 @@
           <p> Velkommen til en festival med god mat og drikke du har råd til. Velkommen til folkefest i Gamlebyen. Velkommen til en festival for fremtiden.</p>
         </div>
 
-        <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/ij2EN4NgYEo?si=gwIeX2L-pIIEl8ro"/>
+        <BlockYoutubeVideo url="https://www.youtube-nocookie.com/embed/rtDJCHpw8J4?si=cmm1imZyv4mbd0vH"/>
       </AppPadding>
 
       <AppPadding class="py-8 w-full flex flex-col items-center">
