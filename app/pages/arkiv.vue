@@ -61,7 +61,6 @@ const artister = [
   { label: 'Deathhammer', link: 'https://open.spotify.com/artist/5mVI4OOATqklEKc0ZOFomS' },
   { label: 'Hayeminol', link: 'https://open.spotify.com/artist/1xljZ0p7YdqrqJL6qFfjR6?si=C7U24PljTXyGMgNGVcltcg' },
   { label: 'DNA? AND?', link: 'https://open.spotify.com/artist/0x3QK5FfoVylpbguFLdgPW' },
-  { label: 'Shament', link: 'https://open.spotify.com/artist/62iQ1bsN2HelEi0ZEXcTzc?si=4QsGKfuvTI6SWd7Na6lbuA' },
   { label: 'Pumpegris', link: 'https://open.spotify.com/artist/6ffouJYBfWqrHFC05DK9MZ?si=Ksx7x4I8TE-Pm0xz5OIXvg' },
   { label: 'Drakånis', link: 'https://open.spotify.com/artist/4njbiof5XsDXCbUrpRVywk' },
   { label: 'Hans Kvist', link: 'https://open.spotify.com/artist/5JSkyF4VqH5L24P6BWEYw2' },
