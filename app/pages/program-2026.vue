@@ -27,6 +27,10 @@
 import type { Performance } from '~/types/Performance';
 import type { Program } from '~/types/Program';
 
+useSeoMeta({
+  title: "Hærverk i Parken: Program 2026",
+})
+
 const program: Program = {
   performances: [
     {
