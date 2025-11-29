@@ -1,7 +1,26 @@
 <template>
-  <AppPadding>
+  <div>
     <PageTitle>Program 2026</PageTitle>
-  </AppPadding>
+
+    <AppPadding class="flex justify-center">
+      <div class="space-y-5 my-10 w-full max-w-3xl">
+        <div v-for="[day, performances] in Object.entries(byDate)" :key="day">
+          <div class="space-y-5">
+            <ProgramHeader>
+              <p v-if="day !== ''">{{ day }}</p>
+              <p v-else> DATO OG TID KOMMER!</p>
+            </ProgramHeader>
+
+            <PerformanceCard
+              v-for="performance in performances"
+              :key="performance.title"
+              :performance
+            />
+          </div>
+        </div>
+      </div>
+    </AppPadding>
+  </div>
 </template>
 
 <script lang="ts" setup>
