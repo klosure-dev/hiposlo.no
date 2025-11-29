@@ -5,6 +5,7 @@
 </template>
 
 <script lang="ts" setup>
+import type { Performance } from '~/types/Performance';
 import type { Program } from '~/types/Program';
 
 const program: Program = {
@@ -43,5 +44,29 @@ const program: Program = {
     },
   ]
 }
+
+function groupByDate(performances: Performance[]): Record<string, Performance[]> {
+  return performances.reduce((acc: Record<string, Performance[]>, entry: Performance) => {
+    if (acc[''] === undefined) {
+      acc[''] = [];
+    }
+
+    if (entry.day !== undefined && acc[entry.day] === undefined) {
+      acc[entry.day] = []
+    }
+
+    if (entry.day === undefined) {
+      acc[''].push(entry)
+    } else {
+      acc[entry.day]?.push(entry)
+    }
+
+    return acc
+  }, { })
+}
+
+const byDate = groupByDate(program.performances)
+console.log(byDate)
+
 </script>
 
