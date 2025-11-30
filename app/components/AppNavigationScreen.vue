@@ -15,12 +15,20 @@
 </template>
 
 <script lang="ts" setup>
+import { useScrollLock } from '@vueuse/core';
 import type { NavLink } from '~/types/NavLink';
+
 
 const { open } = useNavigationScreen();
 
+onMounted(() => {
+  const body = document.querySelector('body')
+  console.log(body)
+  const isLocked = useScrollLock(body, false)
+  watch(open, () => isLocked.value = open.value)
+})
+
 // TODO: close when navbutton gets hidden
-// TODO: lock body scrolling when open
 
 interface Props {
   links: NavLink[]
