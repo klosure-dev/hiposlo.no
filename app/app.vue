@@ -2,6 +2,7 @@
   <UApp>
     <Body class="text-neutral-300 bg-hip-bg">
       <AppNavbar :links/>
+      <AppNavigationScreen :links />
       <NuxtPage/>
       <AppFooter/>
     </Body>

@@ -5,13 +5,15 @@
         <AppLogo class="-ml-1.5 lg:p-0 w-14 lg:w-20 text-hip-orange group-hover:text-hip-blue transition"/>
       </NuxtLink>
 
-      <div class="ml-auto flex gap-2 lg:gap-5 items-center text-sm lg:text-2xl">
+      <div class="hidden sm:flex ml-auto gap-2 lg:gap-5 items-center text-sm lg:text-2xl">
         <AppNavLink
           v-for="link in links"
           :key="link.to"
           :link="link"
         />
       </div>
+
+      <AppNavigationButton class="block sm:hidden ml-auto"/>
     </nav>
   </AppPadding>
 </template>
