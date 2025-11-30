@@ -3,7 +3,7 @@
     <PageTitle>Program 2026</PageTitle>
 
     <AppPadding class="flex justify-center">
-      <div class="space-y-5 my-10 w-full max-w-3xl">
+      <div class="space-y-20 my-30 w-full max-w-3xl">
         <div v-for="[day, performances] in Object.entries(byDate)" :key="day">
           <div class="space-y-5">
             <ProgramHeader>
