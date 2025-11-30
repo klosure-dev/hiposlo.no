@@ -1,5 +1,5 @@
 <template>
-  <AppPadding class="py-2.5 border-b border-hip-orange">
+  <AppPadding class="py-2.5 border-b border-hip-orange sticky top-0 bg-hip-bg z-10">
     <nav class="flex items-center">
       <NuxtLink to="/" class="group">
         <AppLogo class="-ml-1.5 lg:p-0 w-14 lg:w-20 text-hip-orange group-hover:text-hip-blue transition"/>
