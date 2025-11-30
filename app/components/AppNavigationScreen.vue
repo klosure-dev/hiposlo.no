@@ -7,6 +7,7 @@
             v-for="link in links"
             :key="link.to"
             :link="link"
+            @click="open = false"
           />
         </div>
       </div>
