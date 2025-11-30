@@ -1,7 +1,7 @@
 <template>
   <UApp>
     <Body class="text-neutral-300 bg-hip-bg">
-      <AppNavbar/>
+      <AppNavbar :links/>
       <NuxtPage/>
       <AppFooter/>
     </Body>
@@ -26,4 +26,13 @@ useSeoMeta({
   title: "Hærverk i Parken",
   description: 'En ny og fremtidstrettet festival med fokus på ung norsk musikk.'
 })
+
+const appConfig = useAppConfig()
+
+const links = [
+  { label: 'Arkiv', to: '/arkiv', class: '' },
+  { label: 'Om oss', to: '/om-oss', class: '' },
+  { label: 'Kontakt', to: '/kontakt', class: '' },
+  { label: 'Billetter', to: appConfig.ticketLink, class: 'plausible-event-name=kjøp-billetter plausible-event-position=navbar' },
+]
 </script>

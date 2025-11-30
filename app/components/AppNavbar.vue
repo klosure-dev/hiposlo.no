@@ -17,13 +17,11 @@
 </template>
 
 <script lang="ts" setup>
-const appConfig = useAppConfig();
+import type { NavLink } from '~/types/NavLink';
 
-const links = [
-  { label: 'Arkiv', to: '/arkiv', class: '' },
-  { label: 'Om oss', to: '/om-oss', class: '' },
-  { label: 'Kontakt', to: '/kontakt', class: '' },
-  { label: 'Billetter', to: appConfig.ticketLink, class: 'plausible-event-name=kjøp-billetter plausible-event-position=navbar' },
-]
+interface Props {
+  links: NavLink[]
+}
+defineProps<Props>()
 </script>
 
