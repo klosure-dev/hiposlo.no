@@ -35,41 +35,41 @@ const program: Program = {
   performances: [
     {
       title: "Brainbombs",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "DNA? AND?",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
       link: 'https://open.spotify.com/artist/0x3QK5FfoVylpbguFLdgPW',
     },
     {
       title: "Fort Fort",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Le Petite Morte",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Live Aids",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Masselys",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
       link: 'https://open.spotify.com/artist/6slHNTkNyK4uOPJimcuPNw'
     },
     {
       title: "Organ Donor",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Polyfrenetics",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Vepsestikk",
-      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
   ]
 }
