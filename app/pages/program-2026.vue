@@ -8,7 +8,7 @@
           <div class="space-y-5">
             <ProgramHeader>
               <p v-if="day !== ''">{{ day }}</p>
-              <p v-else> DATO OG TID KOMMER!</p>
+              <p v-else>FREDAG (12.08), LØRDAG (13.08)</p>
             </ProgramHeader>
 
             <PerformanceCard
@@ -35,41 +35,32 @@ const program: Program = {
   performances: [
     {
       title: "Brainbombs",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "DNA? AND?",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
       link: 'https://open.spotify.com/artist/0x3QK5FfoVylpbguFLdgPW',
     },
     {
       title: "Fort Fort",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Le Petite Morte",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Live Aids",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Masselys",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
       link: 'https://open.spotify.com/artist/6slHNTkNyK4uOPJimcuPNw'
     },
     {
       title: "Organ Donor",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Polyfrenetics",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
     {
       title: "Vepsestikk",
-      day: 'FREDAG (12.08), LØRDAG (13.08)',
     },
   ]
 }
