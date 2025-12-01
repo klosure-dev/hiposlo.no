@@ -1,5 +1,5 @@
 <template>
-  <article class="flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-5 px-4 py-8 border border-hip-orange">
+  <article class="h-24 flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-5 px-4 border border-hip-orange">
     <p class="leading-none text-lg font-semibold sm:mr-auto">
       {{ performance.title }}
     </p>
