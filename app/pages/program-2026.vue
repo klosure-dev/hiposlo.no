@@ -8,7 +8,7 @@
           <div class="space-y-5">
             <ProgramHeader>
               <p v-if="day !== ''">{{ day }}</p>
-              <p v-else>FREDAG (12.08), LØRDAG (13.08)</p>
+              <p v-else>Fredag, Lørdag (12.08, 13.08)</p>
             </ProgramHeader>
 
             <PerformanceCard
