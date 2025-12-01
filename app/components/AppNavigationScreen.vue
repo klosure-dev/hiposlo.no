@@ -25,7 +25,6 @@ const { open } = useNavigationScreen();
 onMounted(() => {
   // disable scroll when menu is open
   const body = document.querySelector('body')
-  console.log(body)
   const isLocked = useScrollLock(body, false)
   watch(open, () => isLocked.value = open.value)
 
