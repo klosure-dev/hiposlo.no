@@ -34,43 +34,49 @@ useSeoMeta({
 const program: Program = {
   performances: [
     {
+      title: "Brainbombs",
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+    },
+    {
       title: "DNA? AND?",
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      link: 'https://open.spotify.com/artist/0x3QK5FfoVylpbguFLdgPW',
     },
     {
       title: "Fort Fort",
-      time: "19:00",
-      day: 'MANDAG 12.08',
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
     },
     {
       title: "Le Petite Morte",
-      time: "21:00",
-      day: 'MANDAG 12.08',
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
     },
     {
       title: "Live Aids",
-      time: "15:00",
-      day: 'TIRSDAG 13.08'
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
     },
     {
       title: "Masselys",
-      time: "19:00",
-      day: 'TIRSDAG 13.08'
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
+      link: 'https://open.spotify.com/artist/6slHNTkNyK4uOPJimcuPNw'
     },
     {
       title: "Organ Donor",
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
     },
     {
       title: "Polyfrenetics",
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
     },
     {
       title: "Vepsestikk",
+      day: 'MANDAG 12.08 - TIRSDAG 13.08',
     },
   ]
 }
 
 function groupByDate(performances: Performance[]): Record<string, Performance[]> {
   return performances.reduce((acc: Record<string, Performance[]>, entry: Performance) => {
-    if (acc[''] === undefined) {
+    if (entry.day === undefined && acc[''] === undefined) {
       acc[''] = [];
     }
 
@@ -89,7 +95,5 @@ function groupByDate(performances: Performance[]): Record<string, Performance[]>
 }
 
 const byDate = groupByDate(program.performances)
-console.log(byDate)
-
 </script>
 
