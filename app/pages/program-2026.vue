@@ -35,6 +35,7 @@ const program: Program = {
   performances: [
     {
       title: "Brainbombs",
+      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq/discography/album',
     },
     {
       title: "DNA? AND?",
@@ -42,12 +43,14 @@ const program: Program = {
     },
     {
       title: "Fort Fort",
+      link: 'https://open.spotify.com/track/4SRowSoQjrhvoxaASVQQDM',
     },
     {
       title: "Le Petite Morte",
     },
     {
       title: "Live Aids",
+      link: 'https://open.spotify.com/artist/0Z4ihBRT8T2nMcAIOqJ0no'
     },
     {
       title: "Masselys",
@@ -55,12 +58,15 @@ const program: Program = {
     },
     {
       title: "Organ Donor",
+      link: 'https://open.spotify.com/album/4KxKig1BCCyVU335HBXjfV',
     },
     {
       title: "Polyfrenetics",
+      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq/discography/album',
     },
     {
       title: "Vepsestikk",
+      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq/discography/album',
     },
   ]
 }
