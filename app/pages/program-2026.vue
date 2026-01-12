@@ -62,11 +62,11 @@ const program: Program = {
     },
     {
       title: "Polyfrenetics",
-      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq/discography/album',
+      link: 'https://open.spotify.com/artist/0CeucPnXYIWj4zhehP4pKz',
     },
     {
       title: "Vepsestikk",
-      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq/discography/album',
+      link: 'https://open.spotify.com/artist/3VnYLHFpI5sSnYQq0blOVP',
     },
   ]
 }
