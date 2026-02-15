@@ -12,7 +12,7 @@
 <script lang="ts" setup>
 useHead({
   script: [
-    { 'defer': true, 'data-domain': "hiposlo.no", 'src': "https://plausible.kakk.dev/js/script.tagged-events.js", },
+    { 'async': true, 'data-domain': "hiposlo.no", 'src': "https://plausible.kakk.dev/js/script.tagged-events.js", },
   ],
   link: [
     { rel: 'icon', type: 'image/png', href: "/favicon-96x96.png", sizes: "96x96" },
