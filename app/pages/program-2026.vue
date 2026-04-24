@@ -68,8 +68,44 @@ const program: Program = {
       title: "Vepsestikk",
       link: 'https://open.spotify.com/artist/3VnYLHFpI5sSnYQq0blOVP',
     },
-  ]
-}
+    {
+      title: "De Prees",
+      link: "https://depress1.bandcamp.com/music",
+    },
+    {
+      title: "Dele Sosimi & Blåseneborg Rekrasjonslag",
+      link: "https://delesosimi.bandcamp.com/",
+    },
+    {
+      title: "Andreas Røysum Ensemble",
+      link: "https://andreasroysumensemble.bandcamp.com/",
+    },
+    {
+      title: "Hard-ons Jerry A",
+      link: "https://hard-ons1.bandcamp.com/",
+    },
+    {
+      title: "Guitar Wolf",
+      link: "https://guitarwolf.bandcamp.com/music",
+    },
+    {
+      title: "The Shits",
+      link: "https://theshitsrock.bandcamp.com/",
+    },
+    {
+      title: "Faceshopping",
+      link: "https://open.spotify.com/artist/4pvaKfHuKeG81pOn0y7zqI?si=DsontPg-R5qMBXIwEIZHIg&nd=1&dlsi=a326bece98d04b20",
+    },
+    {
+      title: "Wrath",
+      link: "https://wrathband.bandcamp.com/album/the-glade-bl-m-ni",
+    },
+    {
+      title: "fuzzycat organ quartet",
+      link: "https://fuzzycatorganquartet.bandcamp.com/",
+    },
+  ],
+};
 
 function groupByDate(performances: Performance[]): Record<string, Performance[]> {
   return performances.reduce((acc: Record<string, Performance[]>, entry: Performance) => {
