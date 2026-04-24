@@ -2,6 +2,13 @@
   <div>
     <PageTitle>Program 2026</PageTitle>
 
+    <AppPadding class="flex justify-center my-10">
+        <NuxtPicture
+            src="/images/poster-2026.JPG"
+            :img-attrs="{ class: 'w-full max-w-3xl' }"
+        />
+    </AppPadding>
+    
     <AppPadding class="flex justify-center">
       <div class="space-y-20 my-30 w-full max-w-3xl">
         <div v-for="[day, performances] in Object.entries(byDate)" :key="day">
