@@ -1,4 +1,4 @@
-import type { Performance } from "./Performance";
+import type { Performance } from './Performance'
 
 export interface Program {
   performances: Performance[]

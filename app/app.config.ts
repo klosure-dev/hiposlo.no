@@ -3,5 +3,5 @@ export default defineAppConfig({
   socials: {
     instagram: 'https://www.instagram.com/hiposlo/',
     facebook: 'https://www.facebook.com/profile.php?id=61573180470100',
-  }
+  },
 })

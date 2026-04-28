@@ -1,16 +1,21 @@
+<script lang="ts" setup>
+useSeoMeta({
+  title: 'Hærverk i Parken: Om Oss',
+})
+</script>
+
 <template>
   <div>
     <PageTitle>Om oss</PageTitle>
     <AppPadding class="flex justify-center py-8">
       <div class="max-w-2xl space-y-5 ">
-
         <p>
           Hærverk i Parken er en årlig musikkfest som finner sted på området til Gamlebyen Sport og Fritid under Dyvekes Bro i Gamlebyen Oslo.
           Hærverk i Parken viderefører den grenseløse og sjangerfrie bookingen til Kafé Hærverk, bringer den ut i friluft og til en større scene.
         </p>
 
         <div>
-          <NuxtPicture src="/images/carousel/lea-fagernes-1.jpg" width="672px" height="450px" sizes="672px"/>
+          <NuxtPicture src="/images/carousel/lea-fagernes-1.jpg" width="672px" height="450px" sizes="672px" />
         </div>
 
         <p>
@@ -20,20 +25,13 @@
         </p>
 
         <div>
-          <NuxtPicture src="/images/carousel/lea-fagernes-2.jpg" width="672px" height="450px" sizes="672px"/>
+          <NuxtPicture src="/images/carousel/lea-fagernes-2.jpg" width="672px" height="450px" sizes="672px" />
         </div>
 
         <p>
           Velkommen til festival!
         </p>
-
       </div>
     </AppPadding>
   </div>
 </template>
-
-<script lang="ts" setup>
-useSeoMeta({
-  title: "Hærverk i Parken: Om Oss",
-})
-</script>

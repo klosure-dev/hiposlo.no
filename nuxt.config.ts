@@ -1,4 +1,4 @@
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
@@ -11,6 +11,11 @@ export default defineNuxtConfig({
     ],
   },
   image: {
-    format: ['avif', 'webp']
-  }
+    format: ['avif', 'webp'],
+  },
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
 })
