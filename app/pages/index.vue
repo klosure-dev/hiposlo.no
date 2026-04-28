@@ -1,6 +1,6 @@
 <template>
   <main>
-    <BlockHero/>
+    <BlockHero />
     <PageTitle>2026</PageTitle>
   </main>
 </template>

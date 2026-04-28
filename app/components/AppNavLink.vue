@@ -1,3 +1,12 @@
+<script lang="ts" setup>
+import type { NavLink } from '~/types/NavLink'
+
+interface Props {
+  link: NavLink
+}
+defineProps<Props>()
+</script>
+
 <template>
   <NuxtLink
     :to="link.to"
@@ -7,12 +16,3 @@
     {{ link.label }}
   </NuxtLink>
 </template>
-
-<script lang="ts" setup>
-import type { NavLink } from '~/types/NavLink';
-
-interface Props {
-  link: NavLink
-}
-defineProps<Props>()
-</script>
