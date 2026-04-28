@@ -12,5 +12,10 @@ export default defineNuxtConfig({
   },
   image: {
     format: ['avif', 'webp']
-  }
+  },
+  eslint: {
+    config: {
+      standalone: false,
+    },
+  },
 })
