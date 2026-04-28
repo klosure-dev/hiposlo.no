@@ -9,98 +9,107 @@ useSeoMeta({
 const program: Program = {
   performances: [
     {
-      title: 'Brainbombs',
-      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq/discography/album',
+      title: 'Dele Sosimi & Blåsenborg Rekreasjonslag',
+      link: 'https://delesosimi.bandcamp.com/',
+      day: 'Fredag 12.06',
     },
     {
-      title: 'DNA? AND?',
-      link: 'https://open.spotify.com/artist/0x3QK5FfoVylpbguFLdgPW',
+      title: 'Faceshopping',
+      link: 'https://open.spotify.com/artist/4pvaKfHuKeG81pOn0y7zqI?si=DsontPg-R5qMBXIwEIZHIg&nd=1&dlsi=a326bece98d04b20',
+      day: 'Fredag 12.06',
     },
     {
       title: 'Fort Fort',
       link: 'https://open.spotify.com/track/4SRowSoQjrhvoxaASVQQDM',
+      day: 'Fredag 12.06',
+    },
+    {
+      title: 'Guitar Wolf',
+      link: 'https://guitarwolf.bandcamp.com/music',
+      day: 'Fredag 12.06',
+    },
+    {
+      title: 'Hard-Ons w/Jerry A',
+      link: 'https://hard-ons1.bandcamp.com/',
+      day: 'Fredag 12.06',
+    },
+    {
+      title: 'Live Aids',
+      link: 'https://open.spotify.com/artist/0Z4ihBRT8T2nMcAIOqJ0no',
+      day: 'Fredag 12.06',
+    },
+    {
+      title: 'The Shits',
+      link: 'https://theshitsrock.bandcamp.com/',
+      day: 'Fredag 12.06',
+    },
+    {
+      title: 'Andreas Røysum Ensemble',
+      link: 'https://andreasroysumensemble.bandcamp.com/',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Brainbombs',
+      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq/discography/album',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'De Press',
+      link: 'https://depress1.bandcamp.com/music',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'DNA? AND?',
+      link: 'https://open.spotify.com/artist/0x3QK5FfoVylpbguFLdgPW',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Fuzzycat Organ Quartet',
+      link: 'https://fuzzycatorganquartet.bandcamp.com/',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Masselys',
+      link: 'https://open.spotify.com/artist/6slHNTkNyK4uOPJimcuPNw',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Polyfrenetics',
+      link: 'https://open.spotify.com/artist/0CeucPnXYIWj4zhehP4pKz',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Vepsestikk',
+      link: 'https://open.spotify.com/artist/3VnYLHFpI5sSnYQq0blOVP',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Wrath',
+      link: 'https://wrathband.bandcamp.com/album/the-glade-bl-m-ni',
+      day: 'Lørdag 13.06',
     },
     {
       title: 'Le Petite Morte',
     },
     {
-      title: 'Live Aids',
-      link: 'https://open.spotify.com/artist/0Z4ihBRT8T2nMcAIOqJ0no',
-    },
-    {
-      title: 'Masselys',
-      link: 'https://open.spotify.com/artist/6slHNTkNyK4uOPJimcuPNw',
-    },
-    {
       title: 'Organ Donor',
       link: 'https://open.spotify.com/album/4KxKig1BCCyVU335HBXjfV',
-    },
-    {
-      title: 'Polyfrenetics',
-      link: 'https://open.spotify.com/artist/0CeucPnXYIWj4zhehP4pKz',
-    },
-    {
-      title: 'Vepsestikk',
-      link: 'https://open.spotify.com/artist/3VnYLHFpI5sSnYQq0blOVP',
-    },
-    {
-      title: 'De Prees',
-      link: 'https://depress1.bandcamp.com/music',
-    },
-    {
-      title: 'Dele Sosimi & Blåseneborg Rekrasjonslag',
-      link: 'https://delesosimi.bandcamp.com/',
-    },
-    {
-      title: 'Andreas Røysum Ensemble',
-      link: 'https://andreasroysumensemble.bandcamp.com/',
-    },
-    {
-      title: 'Hard-ons Jerry A',
-      link: 'https://hard-ons1.bandcamp.com/',
-    },
-    {
-      title: 'Guitar Wolf',
-      link: 'https://guitarwolf.bandcamp.com/music',
-    },
-    {
-      title: 'The Shits',
-      link: 'https://theshitsrock.bandcamp.com/',
-    },
-    {
-      title: 'Faceshopping',
-      link: 'https://open.spotify.com/artist/4pvaKfHuKeG81pOn0y7zqI?si=DsontPg-R5qMBXIwEIZHIg&nd=1&dlsi=a326bece98d04b20',
-    },
-    {
-      title: 'Wrath',
-      link: 'https://wrathband.bandcamp.com/album/the-glade-bl-m-ni',
-    },
-    {
-      title: 'fuzzycat organ quartet',
-      link: 'https://fuzzycatorganquartet.bandcamp.com/',
     },
   ],
 }
 
 function groupByDate(performances: Performance[]): Record<string, Performance[]> {
   return performances.reduce((acc: Record<string, Performance[]>, entry: Performance) => {
-    if (entry.day === undefined && acc[''] === undefined) {
-      acc[''] = []
+    const key = entry.day ?? ''
+
+    if (acc[key] === undefined) {
+      acc[key] = []
     }
 
-    if (entry.day !== undefined && acc[entry.day] === undefined) {
-      acc[entry.day] = []
-    }
-
-    if (entry.day === undefined) {
-      acc[''].push(entry)
-    }
-    else {
-      acc[entry.day]?.push(entry)
-    }
+    acc[key].push(entry)
 
     return acc
-  }, { })
+  }, {})
 }
 
 const byDate = groupByDate(program.performances)
@@ -126,7 +135,7 @@ const byDate = groupByDate(program.performances)
                 {{ day }}
               </p>
               <p v-else>
-                Fredag, Lørdag (12.06, 13.06)
+                TBA
               </p>
             </ProgramHeader>
 
