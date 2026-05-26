@@ -16,6 +16,11 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  plausible: {
+    ignoredHostnames: ['localhost'],
+    autoOutboundTracking: true,
+    apiHost: import.meta.env.NUXT_PUBLIC_PLAUSIBLE_API_BASE ?? '',
+  },
   image: {
     format: ['avif', 'webp'],
   },
