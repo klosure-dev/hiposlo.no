@@ -44,8 +44,24 @@ const program: Program = {
       day: 'Fredag 12.06',
     },
     {
+      title: 'Signe Emmeluth & Karl Bjorå',
+      day: 'Fredag 12.06',
+    },
+    {
+      title: 'Alexander Rishaug',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Anal Babes',
+      day: 'Lørdag 13.06',
+    },
+    {
       title: 'Andreas Røysum Ensemble',
       link: 'https://andreasroysumensemble.bandcamp.com/',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Den Elektriske Tannlegestolen',
       day: 'Lørdag 13.06',
     },
     {
