@@ -21,7 +21,7 @@ const program: Program = {
     {
       title: 'Fort Fort',
       link: 'https://open.spotify.com/track/4SRowSoQjrhvoxaASVQQDM',
-      day: 'Fredag 12.06',
+      day: 'Lørdag 13.06',
     },
     {
       title: 'Guitar Wolf',
@@ -44,8 +44,24 @@ const program: Program = {
       day: 'Fredag 12.06',
     },
     {
+      title: 'Signe Emmeluth & Karl Bjorå',
+      day: 'Fredag 12.06',
+    },
+    {
+      title: 'Alexander Rishaug',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Anal Babes',
+      day: 'Lørdag 13.06',
+    },
+    {
       title: 'Andreas Røysum Ensemble',
       link: 'https://andreasroysumensemble.bandcamp.com/',
+      day: 'Lørdag 13.06',
+    },
+    {
+      title: 'Den Elektriske Tannlegestolen',
       day: 'Lørdag 13.06',
     },
     {
@@ -76,7 +92,7 @@ const program: Program = {
     {
       title: 'Polyfrenetics',
       link: 'https://open.spotify.com/artist/0CeucPnXYIWj4zhehP4pKz',
-      day: 'Lørdag 13.06',
+      day: 'Fredag 12.06',
     },
     {
       title: 'Vepsestikk',
@@ -90,10 +106,12 @@ const program: Program = {
     },
     {
       title: 'Le Petite Morte',
+      day: 'Fredag 12.06',
     },
     {
       title: 'Organ Donor',
       link: 'https://open.spotify.com/album/4KxKig1BCCyVU335HBXjfV',
+      day: 'Lørdag 13.06',
     },
   ],
 }
