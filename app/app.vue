@@ -23,6 +23,7 @@ const links = [
   { label: 'Arkiv', to: '/arkiv', class: '' },
   { label: 'Om oss', to: '/om-oss', class: '' },
   { label: 'Kontakt', to: '/kontakt', class: '' },
+  { label: 'Praktisk info', to: '/praktisk-info', class: '' },
   { label: 'Program 2026', to: '/program-2026', class: '' },
   { label: 'Billetter', to: appConfig.ticketLink, class: 'plausible-event-name=kjøp-billetter plausible-event-position=navbar' },
 ]
