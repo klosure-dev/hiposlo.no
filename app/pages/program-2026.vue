@@ -9,7 +9,7 @@ useSeoMeta({
 const program: Program = {
   performances: [
     {
-      title: 'Dele Sosimi & Blåsenborg Rekreasjonslag',
+      title: 'Dele Sosimi & Blåsenborg',
       link: 'https://delesosimi.bandcamp.com/',
       day: 'Fredag 12.06',
     },
@@ -137,11 +137,25 @@ const byDate = groupByDate(program.performances)
   <div>
     <PageTitle>Program 2026</PageTitle>
 
-    <AppPadding class="flex justify-center my-10">
-      <NuxtPicture
-        src="/images/poster-2026.JPG"
-        :img-attrs="{ class: 'w-full max-w-3xl' }"
-      />
+    <AppPadding class="flex gap-10 justify-center my-10 ">
+      <div class="flex flex-col gap-7">
+        <NuxtPicture
+          src="/images/program/hip_program_fredag_ok.PNG"
+          :img-attrs="{ class: 'w-full max-w-[450px]' }"
+        />
+        <NuxtPicture
+          src="/images/program/hip_program_lørdag_ok.PNG"
+          :img-attrs="{ class: 'w-full max-w-[450px]' }"
+        />
+        <NuxtPicture
+          src="/images/program/hip_program26_hele.PNG"
+          :img-attrs="{ class: 'w-full max-w-[450px]' }"
+        />
+        <NuxtPicture
+          src="/images/poster-2026.JPG"
+          :img-attrs="{ class: 'w-full max-w-3xl' }"
+        />
+      </div>
     </AppPadding>
 
     <AppPadding class="flex justify-center">
