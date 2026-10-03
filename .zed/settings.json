@@ -33,7 +33,7 @@
   "lsp": {
     "eslint": {
       "settings": {
-        "workingDirectories": ["./"],
+        "workingDirectories": ["./frontend"],
 
         // Silent the stylistic rules in your IDE, but still auto fix them
         "rulesCustomizations": [
