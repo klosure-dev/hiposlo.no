@@ -23,6 +23,7 @@
     "@vueuse/nuxt": "^14.1.0",
     "eslint": "^9.38.0",
     "nuxt": "^4.2.1",
+    "strapi-sdk-js": "^3.1.0",
     "tailwindcss": "^4.1.16",
     "typescript": "^5.9.3",
     "vue": "^3.5.22",
