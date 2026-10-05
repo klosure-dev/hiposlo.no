@@ -142,18 +142,34 @@ const byDate = groupByDate(program.performances)
         <NuxtPicture
           src="/images/program/hip_program_fredag_ok.PNG"
           :img-attrs="{ class: 'w-full max-w-[450px]' }"
+          width="450"
+          sizes="450px"
+          format="webp"
+          densities="1x"
         />
         <NuxtPicture
           src="/images/program/hip_program_lørdag_ok.PNG"
           :img-attrs="{ class: 'w-full max-w-[450px]' }"
+          width="450"
+          sizes="450px"
+          format="webp"
+          densities="1x"
         />
         <NuxtPicture
           src="/images/program/hip_program26_hele.PNG"
           :img-attrs="{ class: 'w-full max-w-[450px]' }"
+          width="450"
+          sizes="450px"
+          format="webp"
+          densities="1x"
         />
         <NuxtPicture
           src="/images/poster-2026.JPG"
           :img-attrs="{ class: 'w-full max-w-3xl' }"
+          width="768"
+          sizes="768px"
+          format="webp"
+          densities="1x"
         />
       </div>
     </AppPadding>

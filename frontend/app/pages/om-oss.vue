@@ -15,7 +15,7 @@ useSeoMeta({
         </p>
 
         <div>
-          <NuxtPicture src="/images/carousel/lea-fagernes-1.jpg" width="672px" height="450px" sizes="672px" />
+          <NuxtPicture src="/images/carousel/lea-fagernes-1.jpg" width="672" height="450" sizes="672px" format="webp" densities="1x" />
         </div>
 
         <p>
@@ -25,7 +25,7 @@ useSeoMeta({
         </p>
 
         <div>
-          <NuxtPicture src="/images/carousel/lea-fagernes-2.jpg" width="672px" height="450px" sizes="672px" />
+          <NuxtPicture src="/images/carousel/lea-fagernes-2.jpg" width="672" height="450" sizes="672px" format="webp" densities="1x" />
         </div>
 
         <p>
