@@ -5,5 +5,6 @@
     "directory": "./.output/public",
     "not_found_handling": "404-page"
   },
+  // Enable branch deployments through Cloudflare Workers Previews.
   "previews": {}
 }
