@@ -29,6 +29,7 @@ const links = [
 <template>
   <UApp>
     <Body class="text-neutral-300 bg-hip-bg">
+      <AppPreviewBanner />
       <AppNavbar :links />
       <AppNavigationScreen :links />
       <NuxtPage />
