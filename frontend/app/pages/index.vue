@@ -3,9 +3,9 @@ import type { StrapiResponse } from 'strapi-sdk-js'
 import type { Landing } from '~/types/Landing'
 
 const { data: landing } = await useAsyncData('landing', async () => {
-  const response = await useStrapi().find<Landing>('landing', {
+  const response = await useStrapi().find<Landing>('landing', useCmsPreviewParams({
     populate: ['desktopHeroImage', 'mobileHeroImage'],
-  }) as unknown as StrapiResponse<Landing>
+  })) as unknown as StrapiResponse<Landing>
 
   return response.data
 })
