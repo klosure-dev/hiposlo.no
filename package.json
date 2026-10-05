@@ -5,6 +5,7 @@
   "scripts": {
     "all:setup": "pnpm -C frontend install && npm --prefix cms ci",
     "dev:frontend": "pnpm -C frontend dev",
-    "dev:cms": "npm --prefix cms run dev"
+    "dev:cms": "npm --prefix cms run dev",
+    "build:frontend": "pnpm -C frontend generate"
   }
 }

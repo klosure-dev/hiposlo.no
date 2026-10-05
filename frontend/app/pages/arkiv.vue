@@ -42,7 +42,7 @@ useSeoMeta({
         <div class="sm:px-12">
           <UCarousel v-slot="{ item }" :items="posters" :ui="{ item: 'xl:basis-1/2' }" arrows>
             <div class="w-full mx-auto flex flex-col items-center">
-              <NuxtPicture :src="item" class="max-w-[500px] w-full" width="500px" sizes="500px" />
+              <NuxtPicture :src="item" class="max-w-[500px] w-full" width="500" sizes="500px" format="webp" densities="1x" />
               <p class="text-center mt-2.5">
                 <NuxtLink class="underline hover:text-hip-blue transition" to="https://www.fluhartberg.com/">
                   Flu Hartberg

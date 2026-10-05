@@ -133,7 +133,7 @@ const pictures = [
   <div class="overflow-hidden w-full lg:px-12 py-8">
     <UCarousel v-slot="{ item }" :items="pictures" :ui="{ item: 'lg:basis-2/3' }" arrows>
       <div class="w-full mx-auto">
-        <NuxtPicture :src="item.src" class="max-w-[970px] w-full" width="970px" sizes="970px" />
+        <NuxtPicture :src="item.src" class="max-w-[970px] w-full" width="970" sizes="970px" format="webp" densities="1x" />
         <p class="text-gray-600 py-2.5">
           {{ item.credit }}
         </p>
