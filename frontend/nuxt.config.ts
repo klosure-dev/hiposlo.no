@@ -34,6 +34,12 @@ export default defineNuxtConfig({
       },
     },
   },
+  nitro: {
+    prerender: {
+      // Not linked from the menu anymore, so the crawler won't find it
+      routes: ['/program-2026'],
+    },
+  },
   eslint: {
     config: {
       standalone: false,
