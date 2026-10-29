@@ -9,10 +9,6 @@ useSeoMeta({
 const program: Program = {
   performances: [
     {
-      title: 'Brainbombs',
-      link: 'https://open.spotify.com/artist/2oIIjz25IqVy5YKU7yVhFq',
-    },
-    {
       title: 'DNA? AND?',
       link: 'https://open.spotify.com/artist/0x3QK5FfoVylpbguFLdgPW',
     },
